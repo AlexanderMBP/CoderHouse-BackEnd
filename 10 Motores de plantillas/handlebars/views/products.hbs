@@ -1,0 +1,17 @@
+<div class="products mt-4">
+    {{#if products}}
+    <ul class="list-group mt-2">
+        {{#each products}}
+        <li class="list-group-item d-flex justify-content-around align-items-center">
+            <p>{{this.id}}</p>
+            <p>{{this.title}}</p>
+            <p>{{this.price}}</p>
+            <img src={{this.thumbnail}} alt={{this.title}} width="20%" height="20%">
+        </li>
+        {{/each}}
+    </ul>
+    {{else}}
+    <h3 class="alert alert-danger">Products not found</h3>
+    {{/if}}
+     <a href="./" class="btn btn-dark mt-2 mx-2">Upload new products</a>
+</div>

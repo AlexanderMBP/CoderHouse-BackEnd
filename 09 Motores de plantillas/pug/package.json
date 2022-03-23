@@ -1,0 +1,30 @@
+{
+  "name": "pug",
+  "version": "1.0.0",
+  "description": "API Server with pug.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderMBP/CoderHouse-BackEnd.git"
+  },
+  "keywords": [
+    "API",
+    "Server",
+    "PUG.JS"
+  ],
+  "author": "Alexander Micael Bernal Pufahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderMBP/CoderHouse-BackEnd/issues"
+  },
+  "homepage": "https://github.com/AlexanderMBP/CoderHouse-BackEnd#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  }
+}
