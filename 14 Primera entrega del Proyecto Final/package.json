@@ -1,0 +1,30 @@
+{
+  "name": "14-primera-entrega-del-proyecto-final",
+  "version": "1.0.0",
+  "description": "First version of the final project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderMBP/CoderHouse-BackEnd.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "API",
+    "eCommerce"
+  ],
+  "author": "Alexander Micael Bernal Pufahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderMBP/CoderHouse-BackEnd/issues"
+  },
+  "homepage": "https://github.com/AlexanderMBP/CoderHouse-BackEnd#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
